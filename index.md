@@ -1,7 +1,7 @@
 @def title = "Programming Tips"
 @def tags = ["syntax", "code"]
 
-# How to use Franklin
+# Julia
 
 \tableofcontents <!-- you can use \toc as well -->
 
@@ -12,7 +12,7 @@ Modify at will to get a feeling for how things work!
 Ps: if you want to modify the header or footer or the general look of the website, adjust the files in
 * `src/_css/` and
 * `src/_html_parts/`.
-
+<!-- 
 ## The base with Markdown
 
 The [standard markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used such as titles using `#`, lists:
@@ -184,4 +184,4 @@ Last modified: {{ fill fd_mtime }}.
 (cf. `src/_html_parts/page_foot.html`) which will then replace these braces with the content of a dictionary of variables at the key `fd_mtime`.
 This dictionary of variables is accessed locally by pages through `@def varname = value` and globally through the `config.md` page via the same syntax.
 
-There's a few other such functions of the form `{{fname p₁ p₂}}` as well as support for conditional blocks. If you wander through the `src/_html_parts/` folder and its content, you should be able to see those in action.
+There's a few other such functions of the form `{{fname p₁ p₂}}` as well as support for conditional blocks. If you wander through the `src/_html_parts/` folder and its content, you should be able to see those in action. -->
